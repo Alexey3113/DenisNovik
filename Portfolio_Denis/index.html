@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<svg style="display: none">
+		<symbol id="linkin" viewBox="0 0 512 512">
+			<g>
+			<path
+				d="m160.007812 423h-70v-226h70zm6.984376-298.003906c0-22.628906-18.359376-40.996094-40.976563-40.996094-22.703125 0-41.015625 18.367188-41.015625 40.996094 0 22.636718 18.3125 41.003906 41.015625 41.003906 22.617187 0 40.976563-18.367188 40.976563-41.003906zm255.007812 173.667968c0-60.667968-12.816406-105.664062-83.6875-105.664062-34.054688 0-56.914062 17.03125-66.246094 34.742188h-.066406v-30.742188h-68v226h68v-112.210938c0-29.386718 7.480469-57.855468 43.90625-57.855468 35.929688 0 37.09375 33.605468 37.09375 59.722656v110.34375h69zm90 153.335938v-392c0-33.085938-26.914062-60-60-60h-392c-33.085938 0-60 26.914062-60 60v392c0 33.085938 26.914062 60 60 60h392c33.085938 0 60-26.914062 60-60zm-60-412c11.027344 0 20 8.972656 20 20v392c0 11.027344-8.972656 20-20 20h-392c-11.027344 0-20-8.972656-20-20v-392c0-11.027344 8.972656-20 20-20zm0 0" />
+			</g>
+			</symbol>
+		<symbol id="instagram" viewBox="0 0 512.00096 512.00096">
+			<g>
+			<path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0"/><path d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0"/><path d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0"/>
+			</g>
+		</symbol>
+		<symbol id="behance" viewBox="0 0 512 512">
+			<g>
+			<path d="m437 0h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75zm45 437c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45v-362c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45zm0 0"/><path d="m241 211c0-33.085938-26.914062-60-60-60h-90v210h90c33.085938 0 60-26.914062 60-60 0-17.90625-7.894531-33.996094-20.378906-45 12.484375-11.003906 20.378906-27.09375 20.378906-45zm-30 90c0 16.542969-13.457031 30-30 30h-60v-60h60c16.542969 0 30 13.457031 30 30zm-90-60v-60h60c16.542969 0 30 13.457031 30 30s-13.457031 30-30 30zm0 0"/><path d="m346 211c-41.355469 0-75 33.644531-75 75s33.644531 75 75 75c26.691406 0 51.582031-14.363281 64.957031-37.488281l-25.96875-15.023438c-8.03125 13.886719-22.972656 22.511719-38.988281 22.511719-19.558594 0-36.238281-12.539062-42.429688-30h117.429688v-15c0-41.355469-33.644531-75-75-75zm-42.429688 60c6.191407-17.460938 22.871094-30 42.429688-30s36.238281 12.539062 42.429688 30zm0 0"/><path d="m286 151h120v30h-120zm0 0"/>
+				</g>
+		</symbol>
+		<symbol id="dribble" viewBox="0 0 512 512">
+			<g>
+
+			<path d="M256,0C115.04,0,0,115.05,0,256c0,140.96,115.05,256,256,256c140.96,0,256-115.05,256-256C512,115.04,396.95,0,256,0z   M429.64,111.51c31.96,38.34,51.47,87.39,52.31,140.89c-40.06-9.37-84.55-10-129.86-1.74c-11.79,2.15-23.58,4.88-35.3,8.16  c-3.9-10.61-8.04-21.13-12.44-31.55c-4.49-10.63-9.23-21.08-14.19-31.38C344.15,175.27,402.65,144.57,429.64,111.51z M256,30  c58.82,0,112.45,22.59,152.7,59.54C393,110.95,348.26,142.12,276.48,169c-25.06-46.66-55.11-89.54-89.83-128.1  C208.51,33.83,231.82,30,256,30z M156.95,52.9c35.41,37.93,65.87,80.29,90.96,126.05c-74.68,24.17-150.29,34.03-212.46,27.66  C50.59,138.96,96.14,82.67,156.95,52.9z M30,256c0-6.64,0.31-13.21,0.87-19.7c13.72,1.45,28.03,2.18,42.82,2.18  c58.33,0,123.86-11.22,188.21-32.53c9.82,20.1,18.65,40.78,26.44,61.97c-25.09,9.02-49.51,20.49-72.44,34.14  c-56.22,33.47-97.35,76.53-114.41,118.71C57.52,379.51,30,320.91,30,256z M256,482c-48.29,0-93.09-15.23-129.86-41.14  c11.4-38.52,49.96-80.19,105.11-113.02c19.43-11.58,42.15-22.49,66.88-31.36c17.53,55.1,28.27,113.26,31.68,173.13  C306.67,477.63,281.84,482,256,482z M359.07,457.1c-4.16-58.32-15.02-115.1-32.45-169.64c48.6-13.36,102.58-17.84,153.77-4.56  C471.33,358.91,424.41,423.47,359.07,457.1z"/>
+		</g>
+		</symbol>
+	</svg>
+
+
+
+	<div class="wrapper">
+<header class="header">
+	<div class="container line">
+		<!-- html меню с иконкой бургера -->
+		<div class="header__menu menu">
+			<div class="menu__icon icon-menu">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav class="menu__body">
+				<ul class="menu__list">
+					<li><a href="" class="menu__link">Home</a></li>
+					<li><a href="#about" class="menu__link">About me</a></li>
+					<li><a href="#skills" class="menu__link">Skills</a></li>
+					<li><a href="#port" class="menu__link">Portfolio</a></li>
+					<li><a href="#contacts" class="menu__link">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>		<main class="main">
+			<section class="novik">
+				<div class="container novik__row">
+					<h3 class="novik__name">
+						Denis Novik
+					</h3>
+					<p class="novik__about">UX | UI designer
+						24 years old, Minsk</p>
+					<p class="novik__language"><span class="novik__language-ru">RU</span><span class="novik__language-blck blck">|ENG</span></p>
+
+				</div>
+				<p class="container">
+					<img src="img/novik.jpg" alt="" class="novik__img">
+					<img src="img/novik2.jpg" alt="" class="novik__img-m">
+				</p>
+			</section>
+			<section class="about-me">
+				<h3 class="about-me__title" id="about">About me</h3>
+				<div class="about-me__text">
+					<p class="about-me__text-1">
+						Hi, I'm Denis – UX/UI designer from Minsk.
+						I'm interested in design and everything connected with it.
+					</p>
+					<p class="about-me__text-2">
+						I'm studying at courses "Web and mobile design
+						interfaces" in IT-Academy.
+					</p>
+					<p class="about-me__text-3">
+						Ready to implement excellent projects
+						with wonderful people.
+					</p>
+				</div>
+			</section>
+			<section class="skills">
+				<div class="container">
+					<h3 class="skills__title" id="skills">
+						Skills
+					</h3>
+					<p class="skills__text">
+						I work in such programs as
+					</p>
+					<div class="skills__row program">
+						<div class="program__column">
+							<a href=""><img src="img/Pshop.jpg" alt="" class="program__img"></a>
+							<p class="program__text">Adobe
+								Photoshop</p>
+							<div class="program__images">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star2.png" alt="" class="program__star">
+							</div>
+						</div>
+						<div class="program__column">
+							<a href=""><img src="img/illustor.jpg" alt="" class="program__img"></a>
+							<p class="program__text">Adobe
+								Illustrator</p>
+							<div class="program__images">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star2.png" alt="" class="program__star">
+								<img src="img/Star2.png" alt="" class="program__star">
+							</div>
+						</div>
+						<div class="program__column">
+							<a href=""><img src="img/effect.jpg" alt="" class="program__img"></a>
+							<p class="program__text">Adobe
+								After Effects</p>
+							<div class="program__images">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star2.png" alt="" class="program__star">
+							</div>
+						</div>
+						<div class="program__column">
+							<a href=""><img src="img/figma.jpg" alt="" class="program__img"></a>
+							<p class="program__text">Figma</p>
+							<div class="program__images">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star.png" alt="" class="program__star">
+								<img src="img/Star2.png" alt="" class="program__star">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<article class="portfolio" id="port">
+				<div class="container">
+					<h3 class="portfolio__title">
+						Portfolio
+					</h3>
+					<div class="portfolio__stores store">
+						<div class="store__fashion">
+							<img src="img/fash.jpg" alt="" class="store__fashion-img">
+							<a href="" class="store__fashion-text">Online fashion store - Homepage</a>
+						</div>
+						<div class="store__fashion">
+							<img src="img/reebok.jpg" alt="" class="store__fashion-img">
+							<a href="" class="store__fashion-text">Reebok Store - Concept</a>
+						</div>
+						<div class="store__fashion">
+							<img src="img/braun.jpg" alt="" class="store__fashion-img">
+							<a href="" class="store__fashion-text">Braun Landing Page - Concept</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		</main>
+<footer class="footer">
+	<h3 class="footer__title" id="contacts">Contacts</h3>
+	
+	<p class="footer__text">Want to know more or just chat?</br>
+		You are welcome!</p>
+
+	<p class="footer__send-btn"><a href="" class="footer__send">Send message</a></p>
+
+	<div class="footer__sosical">
+		<a href="https://vk.com/damaleorg" class="sosical__logo">
+			<svg class="sosical__icon">
+				<use xlink:href="#linkin"></use>
+			</svg>
+		</a>
+		<a href="https://vk.com/damaleorg" class="sosical__logo">
+			<svg class="sosical__icon">
+				<use xlink:href="#instagram"></use>
+			</svg>
+		</a>
+		<a href="https://vk.com/damaleorg" class="sosical__logo">
+			<svg class="sosical__icon">
+				<use xlink:href="#behance"></use>
+			</svg>
+		</a>
+		<a href="https://vk.com/damaleorg" class="sosical__logo">
+			<svg class="sosical__icon">
+				<use xlink:href="#dribble"></use>
+			</svg>
+		</a>
+	</div>
+
+	<p class="footer__sosical-description">
+		Like me on<br>
+		LinkedIn, Instagram, Behance, Dribble
+	</p>
+</footer>	</div>
+<div class="popup">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-content">
+				<div class="popup-close"></div>
+				<div class="popup__title"></div>
+				<div class="popup__txt"></div>
+				<form action="#" class="popup-form form">
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
+					</div>
+					<div class="form-input">
+						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
+					</div>
+					<div class="form-button">
+						<button type="submit" class="form__btn btn fw"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup-video">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-close"></div>
+			<div class="popup-video__value video"></div>
+		</div>
+	</div>
+</div><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
+<script src="js/vendors.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js" ></script>
+</body>
+
+</html>
